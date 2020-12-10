@@ -4,29 +4,46 @@
   "description": "static web app",
   "keywords": [
     "wz_page",
-    "zce"
+    "WZ-wang"
   ],
-  "homepage": "https://github.com/zce/wz_page#readme",
+  "homepage": "https://github.com/WZ-wang/wz_page#readme",
   "bugs": {
-    "url": "https://github.com/zce/wz_page/issues"
+    "url": "https://github.com/WZ-wang/wz_page/issues"
   },
   "license": "MIT",
   "author": "WZ <1720004853@qq.com>",
   "files": [
     "lib"
   ],
+  "bin": "bin/wz_page.js",
   "main": "lib/index.js",
   "directories": {
     "lib": "lib"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/zce/wz_page.git"
+    "url": "git+https://github.com/WZ-wang/wz_page.git"
   },
   "scripts": {
     "lint": "standard --fix"
   },
-  "dependencies": {},
+  "dependencies": {
+    "@babel/core": "^7.12.9",
+    "@babel/preset-env": "^7.12.7",
+    "browser-sync": "^2.26.13",
+    "del": "^6.0.0",
+    "gulp": "^4.0.2",
+    "gulp-babel": "^8.0.0",
+    "gulp-clean-css": "^4.3.0",
+    "gulp-htmlmin": "^5.0.1",
+    "gulp-if": "^3.0.0",
+    "gulp-imagemin": "^7.1.0",
+    "gulp-load-plugins": "^2.0.6",
+    "gulp-sass": "^4.1.0",
+    "gulp-swig": "^0.9.1",
+    "gulp-uglify": "^3.0.2",
+    "gulp-useref": "^5.0.0"
+  },
   "devDependencies": {
     "standard": "^14.3.4"
   },
